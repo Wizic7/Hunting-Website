@@ -33,7 +33,7 @@ export const RegionData =
             },
             {
                 Name: "Moose",
-                Image: "images/Americas/moose",
+                Image: "images/Americas/moose.jpg",
                 Alt: "A moose",
                 PhotoCredit: {
                     Name: "Hari Nandakumar",
@@ -44,7 +44,7 @@ export const RegionData =
             },
             {
                 Name: "Ducks",
-                Image: "images/Americas/mallard",
+                Image: "images/Americas/mallard.jpg",
                 Alt: "A mallard duck",
                 PhotoCredit: {
                     Name: "Joshua J. Cotten",
@@ -71,7 +71,7 @@ export const RegionData =
             },
             {
                 Name: "Ibex",
-                Image: "images/Europe/Ibex",
+                Image: "images/Europe/Ibex.jpg",
                 Alt: "A young Ibex on a blurry rock background",
                 PhotoCredit: {
                     Name: "Thomas Jarrand",
@@ -82,7 +82,7 @@ export const RegionData =
             },
             {
                 Name: "Eurasian Brown Bear",
-                Image: "images/Europe/eurasian_brown_bear",
+                Image: "images/Europe/eurasian_brown_bear.jpg",
                 Alt: "A eurasian brown bear",
                 PhotoCredit: {
                     Name: "Andy Holmes",
@@ -98,7 +98,7 @@ export const RegionData =
         Animals: [
             {
                 Name: "Zebra",
-                Image: "images/Africa/Zebra",
+                Image: "images/Africa/Zebra.jpg",
                 Alt: "A herd of zebras",
                 PhotoCredit: {
                     Name: "sutirta budiman",
@@ -109,7 +109,7 @@ export const RegionData =
             },
             {
                 Name: "Springbok",
-                Image: "images/Africa/Springbok",
+                Image: "images/Africa/Springbok.jpg",
                 Alt: "A Springbok",
                 PhotoCredit: {
                     Name: "Cameron Oxley",
@@ -120,7 +120,7 @@ export const RegionData =
             },
             {
                 Name: "Lion",
-                Image: "images/Africa/Lion",
+                Image: "images/Africa/Lion.jpg",
                 Alt: "A lion",
                 PhotoCredit: {
                     Name: "Amar Yashlaha",
@@ -136,7 +136,7 @@ export const RegionData =
         Animals: [
             {
                 Name: "Argali",
-                Image: "images/Asia/Argali",
+                Image: "images/Asia/Argali.webp",
                 Alt: "A picture of an Argali",
                 PhotoCredit: {
                     Name: "",
@@ -147,7 +147,7 @@ export const RegionData =
             },
             {
                 Name: "Indian Wolf",
-                Image: "images/Asia/Indian_wolf",
+                Image: "images/Asia/Indian_wolf.webp",
                 Alt: "A picture of an Indian Wolf",
                 PhotoCredit: {
                     Name: "",
@@ -158,7 +158,7 @@ export const RegionData =
             },
             {
                 Name: "Bharal (Blue Sheep/Naur)",
-                Image: "images/Asia/Bharal",
+                Image: "images/Asia/Bharal.jpg",
                 Alt: "An image of a Bharal",
                 PhotoCredit: {
                     Name: "",
