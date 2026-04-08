@@ -1,0 +1,64 @@
+/* 
+COLOR PALLETTE
+https://coolors.co/502419-7ea172-c7cb85-e7a977-ebbe9b
+*/
+
+:root {
+    --white: #ffffff;
+    --beige: #D9C9A6;
+    --black: black;
+    --gray: #cccccc;
+    --brown: #8B4513;
+    --dark-green: #004d00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white); /* White background */
+    margin: 0;
+    padding: 20px;
+    background-image: url("../images/horizontal-homepage.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: var(--white);
+    overflow-x:hidden;
+}
+
+h1{
+    font-size: 6em;
+}
+
+.links{
+    margin-top:20vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--brown);
+    background-color: var(--beige);
+    font-size: 4em;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.links a:hover{
+    color: var(--dark-green);
+}
+
+footer {
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    margin-left: 5vminl;
+    width: 100%;
+    gap: 20px;
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        background-size: 100%;
+    }
+}
+

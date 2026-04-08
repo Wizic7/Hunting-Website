@@ -1,0 +1,167 @@
+:root {
+    --white: #ffffff;
+    --beige: #D9C9A6;
+    --black: black;
+    --gray: #cccccc;
+    --brown: #8B4513;
+    --dark-green: #004d00;
+}
+
+header{
+    background-color: var(--beige);
+    top:0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    padding: 5px 50px;
+    text-decoration: none;
+    color: var(--brown);
+    font-size: 2em;
+}
+
+header a:hover{
+    color: var(--dark-green);
+}
+
+header {
+    background-color: var(--beige);
+    top: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    padding: 5px 50px;
+    text-decoration: none;
+    color: var(--brown);
+    font-size: 2em;
+}
+
+header a:hover {
+    color: var(--dark-green);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--beige);
+    padding: 10px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+    display: none; /* Hidden by default */
+    flex-direction: row; /* Stack links vertically for simplicity */
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.toggle-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 70px;
+}
+
+.toggle-btn:hover {
+    background-color: #777;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: var(--black); 
+}
+
+img {
+    max-width: 100%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto;  
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--beige);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--black); 
+}
+
+input {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid var(--gray); 
+    border-radius: 5px;
+}
+
+.fraction {
+    width: calc(50% - 10px);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--brown); 
+    color: var(--white); 
+    border: none;
+}
+
+button:hover {
+    background-color: var(--dark-green); 
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 20px;
+    border-bottom: 1px solid var(--gray); 
+    padding-bottom: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--black); 
+}
+
+
