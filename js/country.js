@@ -34,7 +34,6 @@ async function searchCountry() {
   let search = document.querySelector("#search").value;
   try {
     const results = await getJson(`name/${search}`);
-    console.log(results);
     setContries(results);
   } catch (error) {
     console.error(error);
